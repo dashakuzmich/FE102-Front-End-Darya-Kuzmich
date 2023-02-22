@@ -1,29 +1,75 @@
-a {
-    text-decoration: none;
-    color: #333333;
-    font-family: 'Open Sans';
-font-size: 14px;
-font-weight: 400;
-line-height: 19px;
-letter-spacing: 0em;
-text-align: center;
-
+.menu a {
+  text-decoration: none;
+  color: #333333;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
 }
 .menu {
-display: flex;
-
-align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .menu li {
-    list-style-type: none;
-    width: 203px;
-    height: 40px;
-    padding: 10px 81px;
+  list-style-type: none;
+  width: 203px;
+  height: 40px;
+  padding: 10px 81px;
 }
 
 .menu li:first-child {
-    border: 1px solid #C6CBCD;
-    border-radius: 5px;
+  border: 1px solid #c6cbcd;
+  border-radius: 5px;
+  border-bottom: 0;
+}
 
+.tabs {
+  display: flex;
+  width: 1170px;
+  height: 501px;
+  border: 1px solid #c6cbcd;
+}
+.tabs__text {
+  margin: 42px 30px 54px 100px;
+}
+.tabs__title {
+  font-family: "Open Sans";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 570px;
+  height: 124px;
+}
+
+.tabs__description {
+    width: 570px;
+    height: 210px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.tabs__btn {
+  width: 270px;
+  height: 58px;
+  padding: 17px 0;
+  background-color: #ec7979;
+  margin-left: 68px;
+}
+.tabs__btn a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
 }
