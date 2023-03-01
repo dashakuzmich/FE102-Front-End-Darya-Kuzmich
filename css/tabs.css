@@ -1,4 +1,10 @@
-.menu a {
+.tab-menu {
+  display: flex;
+  align-items: flex-start;
+
+}
+
+.tab-menu a {
   text-decoration: none;
   color: #333333;
   font-family: "Open Sans";
@@ -8,34 +14,39 @@
   letter-spacing: 0em;
   text-align: center;
 }
-.menu {
+
+.tab-menu__item:last-child {
+  flex-grow: 1;
+}
+
+
+.tab-menu__item {
+  list-style-type: none;
+  width: 184px;
+  height: 40px;
   display: flex;
   align-items: center;
-}
+  justify-content: center; 
+   border-bottom: 1px solid #c6cbcd;
 
-.menu li {
-  list-style-type: none;
-  width: 203px;
-  height: 40px;
-  padding: 10px 81px;
 }
-
-.menu li:first-child {
+.menu-item__active {
   border: 1px solid #c6cbcd;
-  border-radius: 5px;
-  border-bottom: 0;
+  border-bottom: 0px;
+  border-radius: 5px 5px 0 0;
+
 }
 
-.tabs {
+.tab__block {
   display: flex;
-  width: 1170px;
   height: 501px;
   border: 1px solid #c6cbcd;
+  border-top: none;
 }
-.tabs__text {
-  margin: 42px 30px 54px 100px;
+.tab__text {
+  padding: 42px 15px 54px 100px;
 }
-.tabs__title {
+.tab__title {
   font-family: "Open Sans";
   font-size: 30px;
   font-weight: 700;
@@ -43,12 +54,11 @@
   letter-spacing: 0em;
   text-align: left;
   width: 570px;
-  height: 124px;
 }
 
-.tabs__description {
+.tab__description {
     width: 570px;
-    height: 210px;
+    margin-top: 68px;
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
@@ -56,14 +66,16 @@
   text-align: left;
 }
 
-.tabs__btn {
+.tab__btn {
+  margin-top: 28px;
   width: 270px;
   height: 58px;
   padding: 17px 0;
   background-color: #ec7979;
-  margin-left: 68px;
+  text-align: center;
 }
-.tabs__btn a {
+
+.tab__btn a {
   color: #ffffff;
   text-decoration: none;
   font-family: "Open Sans";
@@ -71,5 +83,5 @@
   font-weight: 600;
   line-height: 25px;
   letter-spacing: 0em;
-  text-align: center;
+  
 }
