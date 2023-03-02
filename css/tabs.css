@@ -67,12 +67,13 @@
 }
 
 .tab__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 28px;
   width: 270px;
   height: 58px;
-  padding: 17px 0;
   background-color: #ec7979;
-  text-align: center;
 }
 
 .tab__btn a {

@@ -1,0 +1,113 @@
+.banner {
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+  background-image: url(/img/banner/bcg.png);
+  min-width: 1510px;
+  height: 1026px;
+}
+.banner-item {
+  display: flex;
+}
+.banner-item__text {
+  padding-top: 230px;
+}
+.banner-item h1 {
+  width: 670px;
+  padding-top: 70px;
+  font-family: Raleway;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 56px;
+  letter-spacing: 0em;
+  color: white;
+}
+.banner-item h1::after {
+  content: "";
+  display: block;
+  margin: 55px 0 42px;
+  width: 170px;
+  border-bottom: 1px solid #ffffff;
+}
+.banner-item h5 {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  color: #ffffff;
+  width: 270px;
+}
+.banner__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 42px;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0em;
+  border: 2px solid #ffffff;
+  width: 270px;
+  height: 58px;
+}
+.banner-form {
+  margin-top: 207px;
+  width: 470px;
+  height: 450px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.banner-form__title {
+  text-align: center;
+  padding-top: 29px;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #333333;
+}
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 74px 50px;
+    
+}
+.auth-form input {
+    padding-bottom: 16px;
+    margin-bottom: 33px;
+    width: 370px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+}
+.auth-form input::placeholder {
+    
+    font-family: 'Open Sans';
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+
+color: #BDBDBD;
+}
+.auth-form__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 470px;
+    height: 60px;
+    background-color: #EC7979;
+    border-radius: 0 0 10px 10px;
+    margin-top: 57px;
+}
+.auth-form__btn a {
+    font-family: 'Open Sans';
+font-size: 15px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0em;
+}
