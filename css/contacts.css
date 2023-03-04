@@ -27,7 +27,8 @@
   color: #bdbdbd;
 }
 .input__group input:focus {
-  border-bottom: 1px solid #ec7979;
+  outline: 1px solid #C6CBCD;
+  border-radius: 5px 5px 0 0; 
 }
 .textarea__group textarea {
   height: 100%;
@@ -46,7 +47,8 @@
   color: #bdbdbd;
 }
 .textarea__group textarea:focus {
-  border-bottom: 1px solid #ec7979;
+  outline: 1px solid #C6CBCD;
+  border-radius: 5px 5px 0 0; 
 }
 .feedback-form__btn {
   display: flex;
