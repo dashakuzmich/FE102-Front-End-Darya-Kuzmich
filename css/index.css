@@ -1,37 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway&display=swap');
-@import url(/css/awesome.css);
-@import url(/css/tabs.css);
-@import url(/css/pricing.css);
-@import url(/css/customers.css);
-@import url(/css/banner.css);
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway&display=swap");
+@import url(./awesome.css);
+@import url(./tabs.css);
+@import url(./pricing.css);
+@import url(./customers.css);
+@import url(./banner.css);
+@import url(./banner-2.css);
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    font-family: 'Raleway', 'Open Sans', sans-serif;
+  font-family: "Raleway", "Open Sans", sans-serif;
 }
+
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
+
 .wrapper {
-    padding: 74px 15px 30px 0;
-    width: 1170px;
-    margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1170px;
+  margin: 0 auto;
 }
 header {
-    position: fixed;
-    width: 100vw;
+  position: fixed;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 75px;
   background-color: black;
   padding: 0 170px 0 115px;
   z-index: 1;
@@ -46,29 +48,40 @@ header {
 .main-menu a {
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: center;
   width: 113px;
+  height: 75px;
   color: white;
 }
-.header__title {
-    font-size: 36px;
-    font-weight: 400;
-    line-height: 42px;
-    text-align: center;
+.main-menu a:hover {
+  background-color: #ec7979;
+}
+.main-menu a:active {
+  background-color: #ab4949;
+}
+.heading {
+    padding-top: 104px;
+}
+.title {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 42px;
+  text-align: center;
 }
 
-.header__title::after {
-    content: "";
-    display: block;
-    margin: 54px auto 40px auto;
-    width: 170px;
-    border-bottom: 1px solid #EC7979;
+.title::after {
+  content: "";
+  display: block;
+  margin: 54px auto 40px auto;
+  width: 170px;
+  border-bottom: 1px solid #ec7979;
 }
 
-.header__subtitle {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21.13px;
-    color: #86878B;
-    text-align: center;
+.subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.13px;
+  color: #86878b;
+  text-align: center;
 }
+

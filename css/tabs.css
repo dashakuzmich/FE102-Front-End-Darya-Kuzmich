@@ -1,7 +1,7 @@
 .tab-menu {
   display: flex;
   align-items: flex-start;
-
+  padding-top: 99px;
 }
 
 .tab-menu a {
@@ -19,22 +19,19 @@
   flex-grow: 1;
 }
 
-
 .tab-menu__item {
   list-style-type: none;
   width: 184px;
   height: 40px;
   display: flex;
   align-items: center;
-  justify-content: center; 
-   border-bottom: 1px solid #c6cbcd;
-
+  justify-content: center;
+  border-bottom: 1px solid #c6cbcd;
 }
 .menu-item__active {
   border: 1px solid #c6cbcd;
   border-bottom: 0px;
   border-radius: 5px 5px 0 0;
-
 }
 
 .tab__block {
@@ -44,7 +41,7 @@
   border-top: none;
 }
 .tab__text {
-  padding: 42px 15px 54px 100px;
+  padding: 42px 0px 54px 100px;
 }
 .tab__title {
   font-family: "Open Sans";
@@ -57,8 +54,8 @@
 }
 
 .tab__description {
-    width: 570px;
-    margin-top: 68px;
+  width: 570px;
+  margin-top: 68px;
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
@@ -66,7 +63,7 @@
   text-align: left;
 }
 
-.tab__btn {
+.tab__btn a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -74,9 +71,6 @@
   width: 270px;
   height: 58px;
   background-color: #ec7979;
-}
-
-.tab__btn a {
   color: #ffffff;
   text-decoration: none;
   font-family: "Open Sans";
@@ -84,5 +78,13 @@
   font-weight: 600;
   line-height: 25px;
   letter-spacing: 0em;
-  
+}
+
+.tab__btn a:hover {
+  background-color: #ab4949;
+  transition: all 0.2s;
+}
+.tab__btn a:active {
+  background-color: #ec7979;
+  box-shadow: inset 0px 0px 10px #ab4949;
 }

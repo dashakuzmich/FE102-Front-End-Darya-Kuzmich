@@ -1,13 +1,12 @@
 .pricing {
   background-color: #f5f5f5;
-}
-.pricing__header {
-  text-align: center;
+  margin-top: 58px;
 }
 .pricing-cards {
   display: flex;
   justify-content: space-between;
   padding-top: 59px;
+  padding-bottom: 30px;
 }
 .pricing-cards__item {
   display: flex;

@@ -21,18 +21,17 @@
   border-radius: 10px;
 }
 .customers-comment::after {
-    content: "";
-    display: block;
-    position: relative;
-    left: 46px;
-    top: 67px;
-        width: 0;
-        height: 0;
-        border-left: 20px solid transparent;
-        border-right: 20px solid transparent;
-        border-top: 30px solid #e2e2e2;
-    }
-
+  content: "";
+  display: block;
+  position: relative;
+  left: 46px;
+  top: 67px;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 30px solid #e2e2e2;
+}
 .customers-profile {
   display: flex;
   padding-top: 66px;
