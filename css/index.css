@@ -5,6 +5,9 @@
 @import url(./customers.css);
 @import url(./banner.css);
 @import url(./banner-2.css);
+@import url(./contacts.css);
+@import url(./footer.css);
+@import url(./social.css);
 * {
   box-sizing: border-box;
   margin: 0;
@@ -60,7 +63,7 @@ header {
   background-color: #ab4949;
 }
 .heading {
-    padding-top: 104px;
+  padding-top: 104px;
 }
 .title {
   font-size: 36px;
@@ -84,4 +87,3 @@ header {
   color: #86878b;
   text-align: center;
 }
-

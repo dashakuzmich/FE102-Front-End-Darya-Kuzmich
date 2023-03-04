@@ -90,7 +90,8 @@
   padding-bottom: 16px;
   margin-bottom: 33px;
   width: 370px;
-  border: none;
+  border: unset;
+  outline: none;
   border-bottom: 1px solid #bdbdbd;
 }
 .auth-form input::placeholder {
@@ -102,6 +103,9 @@
   text-align: left;
 
   color: #bdbdbd;
+}
+.auth-form input:focus {
+  border-bottom: 1px solid #ec7979;
 }
 .auth-form__btn a {
   display: flex;
