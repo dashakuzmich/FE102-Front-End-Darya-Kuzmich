@@ -36,7 +36,7 @@
 
 .tab__block {
   display: flex;
-  height: 501px;
+  height: 500px;
   border: 1px solid #c6cbcd;
   border-top: none;
 }
